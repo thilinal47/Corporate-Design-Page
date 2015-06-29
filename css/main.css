@@ -1,0 +1,327 @@
+@font-face {
+    font-family: colossalis;
+    src: url('Colossalis Bold.ttf');
+}
+
+body {
+    border-top: 8px solid #ec8e08;
+    color: #888;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ec8e08;
+    font-family: colossalis, impact, sans-serif;
+}
+
+header {
+    padding-top: 15px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.clear {
+    clear: both;
+}
+
+/***************  Social Media **************************/
+
+.social {
+    text-align: right;
+}
+
+.social p {
+    margin-bottom: 2px;
+    font-size: 0.85em;
+}
+
+.social ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.social a i {
+    color: #a1a1a1;
+    text-decoration: none;
+    font-size: 2.5em;
+    transition: color .5s;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+}
+
+.social a:hover i.icon-facebook-sign {
+    color: #3b5998;
+}
+
+.social a:hover i.icon-twitter-sign {
+    color: #4099ff;
+}
+
+.social a:hover i.icon-google-plus-sign {
+    color: #d34836;
+}
+
+.social a:hover i.icon-youtube-sign {
+    color: #ff3333;
+}
+
+/***************  Navigation **************************/
+
+nav {
+    border: 1px solid;
+    clear: both;
+    height: 45px;
+}
+
+.main-nav {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.main-nav li {
+    border-right: 1px solid #ccc;
+    float: left;
+    position: relative;
+    width: 100px;
+    height: 45px;
+}
+
+.main-nav li a {
+    color: #a1a1a1;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 12px;
+    width: 100px;
+    height: 31px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .5s;
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+}
+
+.main-nav li a:hover {
+    background-color: #eee;
+
+}
+
+.search {
+    color: #a1a1a1;
+    margin: 10px 10px 0 0;
+}
+
+.search input {
+    border: 1px solid #a1a1a1;
+    background-color: #eee;
+    border-radius: 25px;
+}
+
+/***************  Slider Content **********************/
+
+.slider {
+    background: #eee url("../img/Box1.jpg") no-repeat;
+    width: 960px;
+    height: 260px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider-prev, .slider-next {
+    color: #444;
+    font-size: 30px;
+    text-decoration: none;
+    opacity: .5;
+    position: absolute;
+    top: 115px;
+    transition: opacity .5s;
+}
+
+.slider-next:hover, .slider-prev:hover {
+    opacity: 1;
+}
+
+.slider-prev {
+    left: 10px;
+}
+
+a.slider-next {
+    right: 10px;
+}
+
+.slide-image {
+    position: absolute;
+    top: 15px;
+    left: 80px;
+}
+
+.slider-content {
+    width: 50%;
+    position: absolute;
+    right: 80px;
+}
+
+.slider-title {
+    font: 55px "Trebuchet MS", Tohoma, Ariel, sans-serif;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+
+.slider-title span {
+    color: #a1a1a1;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.slider-button {
+    background-color: #8bcf48;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 280px;
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color .5s;
+}
+
+.slider-button span {
+    font-size: 14px;
+}
+
+.slider-button:hover {
+    background-color: #9cdf59;
+}
+
+/**************************** two of third ********************************/
+
+.two-column {
+    margin-bottom: 30px;
+}
+
+.two-of-third, .one-of-third {
+    padding: 0px;
+    float: left;
+}
+
+.one-of-third:last-child, .two-thirds:last-child {
+    margin-righ: 0px;
+}
+
+.one-of-third {
+    width: 304px;
+
+}
+
+.two-of-third {
+    width: 632px;
+    margin-right: 24px;
+}
+
+.icons-ul {
+    padding: 0px;
+}
+
+/**************************** one of fourth ********************************/
+
+.one-of-fourth {
+    border: 1px solid #ddd;
+    border-left: none;
+    padding: 10px;
+    width: 218.75px;
+    float: left;
+}
+
+.one-of-fourth:first-child {
+    border-left: 1px solid #ddd;
+}
+
+.image-container {
+    position: relative;
+    height: 160px;
+}
+
+.image-caption {
+    background-color: #000;
+    color: #fff;
+    opacity: 0.5;
+    width: 200px;
+    position: absolute;
+    bottom: 0px;
+    padding: 3px 10px;
+}
+
+/***************** Footer *********************/
+
+footer {
+    background-color: #555;
+    border-top: 8px solid #ec8e08;
+    margin-top: 30px;
+}
+
+footer h3 {
+    line-height: 12px;
+}
+
+footer p {
+    line-height: 10px;
+}
+
+.copywrite {
+    border-top: 1px solid #888;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.thumbnail {
+    list-style-type: none;
+}
+
+.thumbnail li {
+    float: left;
+    margin-right: 10px;
+}
+
